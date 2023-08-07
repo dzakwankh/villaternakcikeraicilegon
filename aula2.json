@@ -1,0 +1,121 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "aula2_controls.json"
+        },
+        {
+            "src": "panoStudioViewerGallery.json"
+        }
+    ],
+"node": {
+	"audio": {
+	        "autoplay": true,
+	        "id": "lAudio",
+	        "loop": true,
+	        "src": "y2mate.com - Harvest Moon Back to Nature  Town  OST.mp3"
+	    },
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 359.99999999999994,
+	        "maxtilt": 89.99999999999999,
+	        "minpan": 0,
+	        "mintilt": -89.99999999999999
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "vilaatas.html\n",
+	            "opacity": "1.00;1.00",
+	            "position": "98.3036,13.3929",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "lantai 2"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_info_blue.png",
+	            "bitmapscale": "1.0;1.1",
+	            "bitmaptype": "floating",
+	            "href": "javascript:",
+	            "hsinfo": {
+	                "align": "center",
+	                "captureMouse": true,
+	                "checkHover": true,
+	                "id": "hsinfo1",
+	                "maxwidth": "66%",
+	                "onclick": "function(){ this.viewer.action('hideMessage'); } ",
+	                "style": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66); transform-origin : 0% 0% 0px; transform: translate(0px, 0px) translateZ(10000px);",
+	                "text": "<div style='padding: 16px;' class='panoStudioViewerText1'><style>div.panoStudioViewerText1 a, a:visited {color: #FDB815;} div.panoStudioViewerText1 a:hover, a:active {color: #EFF517;}</style>Ruang serbaguna ini ditujukan untuk wisatawan yang ingin menikmati berbagai aktivitas dan layanan yang disediakan. Dari acara pertemuan, lokakarya, pertunjukan seni, atau pesta kecil, ruang serbaguna ini dapat menampung berbagai jenis kegiatan sesuai dengan kebutuhan para wisatawan.</div>",
+	                "xoff": 0,
+	                "yoff": -30
+	            },
+	            "onclick": "function(){ this.viewer.action('toggleMessage',this.hsinfo); }",
+	            "opacity": "1.00;1.00",
+	            "position": "169.0179,7.5000",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "aula1.html",
+	            "opacity": "1.00;1.00",
+	            "position": "45.8036,40.1786",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "ruang serba guna"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "aula2",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"aula2_tiles/aula2_t_1b_%y_%x.jpg"},"down":{"src":"aula2_tiles/aula2_t_1d_%y_%x.jpg"},"front":{"src":"aula2_tiles/aula2_t_1f_%y_%x.jpg"},"height":1711,"left":{"src":"aula2_tiles/aula2_t_1l_%y_%x.jpg"},"right":{"src":"aula2_tiles/aula2_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"aula2_tiles/aula2_t_1u_%y_%x.jpg"},"width":1711},{"back":{"src":"aula2_tiles/aula2_t_2b_%y_%x.jpg"},"down":{"src":"aula2_tiles/aula2_t_2d_%y_%x.jpg"},"front":{"src":"aula2_tiles/aula2_t_2f_%y_%x.jpg"},"height":856,"left":{"src":"aula2_tiles/aula2_t_2l_%y_%x.jpg"},"right":{"src":"aula2_tiles/aula2_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"aula2_tiles/aula2_t_2u_%y_%x.jpg"},"width":856},{"back":{"src":"aula2_tiles/aula2_t_3b_%y_%x.jpg"},"down":{"src":"aula2_tiles/aula2_t_3d_%y_%x.jpg"},"front":{"src":"aula2_tiles/aula2_t_3f_%y_%x.jpg"},"height":428,"left":{"src":"aula2_tiles/aula2_t_3l_%y_%x.jpg"},"right":{"src":"aula2_tiles/aula2_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"aula2_tiles/aula2_t_3u_%y_%x.jpg"},"width":428}],"multilevel":true,"preview":{"src":"aula2_tiles/aula2_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 90,
+	        "pan": 179.99999999999997,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

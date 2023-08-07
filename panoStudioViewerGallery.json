@@ -1,0 +1,100 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer":
+{
+    "gallery": [
+        {
+            "href": "jlnutama2.json",
+            "thumbnail": "jlnutama2_tiles/jlnutama2_thumb.jpg"
+        },
+        {
+            "href": "areakuda.json",
+            "thumbnail": "areakuda_tiles/areakuda_thumb.jpg"
+        },
+        {
+            "href": "areakuda2.json",
+            "thumbnail": "areakuda2_tiles/areakuda2_thumb.jpg"
+        },
+        {
+            "href": "areapanah.json",
+            "thumbnail": "areapanah_tiles/areapanah_thumb.jpg"
+        },
+        {
+            "href": "aremakan.json",
+            "thumbnail": "aremakan_tiles/aremakan_thumb.jpg"
+        },
+        {
+            "href": "aula1.json",
+            "thumbnail": "aula1_tiles/aula1_thumb.jpg"
+        },
+        {
+            "href": "aula2.json",
+            "thumbnail": "aula2_tiles/aula2_thumb.jpg"
+        },
+        {
+            "href": "cafe.json",
+            "thumbnail": "cafe_tiles/cafe_thumb.jpg"
+        },
+        {
+            "href": "halamanvilabawah.json",
+            "thumbnail": "halamanvilabawah_tiles/halamanvilabawah_thumb.jpg"
+        },
+        {
+            "href": "halandaepanvilaternak.json",
+            "thumbnail": "halandaepanvilaternak_tiles/halandaepanvilaternak_thumb.jpg"
+        },
+        {
+            "href": "jlnutama.json",
+            "thumbnail": "jlnutama_tiles/jlnutama_thumb.jpg"
+        },
+        {
+            "href": "kandang kambing.json",
+            "thumbnail": "kandang kambing_tiles/kandang kambing_thumb.jpg"
+        },
+        {
+            "href": "kandangdomba.json",
+            "thumbnail": "kandangdomba_tiles/kandangdomba_thumb.jpg"
+        },
+        {
+            "href": "kandangsapi.json",
+            "thumbnail": "kandangsapi_tiles/kandangsapi_thumb.jpg"
+        },
+        {
+            "href": "kandangungas.json",
+            "thumbnail": "kandangungas_tiles/kandangungas_thumb.jpg"
+        },
+        {
+            "href": "kelinci.json",
+            "thumbnail": "kelinci_tiles/kelinci_thumb.jpg"
+        },
+        {
+            "href": "musolah.json",
+            "thumbnail": "musolah_tiles/musolah_thumb.jpg"
+        },
+        {
+            "href": "New Panorama10.json",
+            "thumbnail": "New Panorama10_tiles/New Panorama10_thumb.jpg"
+        },
+        {
+            "href": "parkiran.json",
+            "thumbnail": "parkiran_tiles/parkiran_thumb.jpg"
+        },
+        {
+            "href": "pertigaan.json",
+            "thumbnail": "pertigaan_tiles/pertigaan_thumb.jpg"
+        },
+        {
+            "href": "terasluar.json",
+            "thumbnail": "terasluar_tiles/terasluar_thumb.jpg"
+        },
+        {
+            "href": "vilaatas.json",
+            "thumbnail": "vilaatas_tiles/vilaatas_thumb.jpg"
+        },
+        {
+            "href": "vilabawah.json",
+            "thumbnail": "vilabawah_tiles/vilabawah_thumb.jpg"
+        }
+    ]
+}
+
+}

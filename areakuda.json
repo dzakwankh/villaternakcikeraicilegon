@@ -1,0 +1,118 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"audio": {
+        "autoplay": true,
+        "id": "gAudio",
+        "loop": true,
+        "src": "Harvest Moon- Back to Nature Title OST.mp3"
+    },
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "areakuda_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 359.99999999999994,
+	        "maxtilt": 89.99999999999999,
+	        "minpan": 0,
+	        "mintilt": -89.99999999999999
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 34,
+	                "width": 72
+	            },
+	            "bitmap": "pap_runningArrowLeft.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "areapanah.html",
+	            "opacity": "1.00;1.00",
+	            "position": "161.2500,-6.9643",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "area pemana"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "cafe.html\n",
+	            "opacity": "1.00;1.00",
+	            "position": "362.9464,10.4464",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "cafe"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_info_blue.png",
+	            "bitmapscale": "1.0;1.1",
+	            "bitmaptype": "floating",
+	            "href": "javascript:",
+	            "hsinfo": {
+	                "align": "center",
+	                "captureMouse": true,
+	                "checkHover": true,
+	                "id": "hsinfo2",
+	                "maxwidth": "66%",
+	                "onclick": "function(){ this.viewer.action('hideMessage'); } ",
+	                "style": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66); transform-origin : 0% 0% 0px; transform: translate(0px, 0px) translateZ(10000px);",
+	                "text": "<div style='padding: 16px;' class='panoStudioViewerText1'><style>div.panoStudioViewerText1 a, a:visited {color: #FDB815;} div.panoStudioViewerText1 a:hover, a:active {color: #EFF517;}</style>Tempat ini merupakan area berkuda yang ideal bagi para wisatawan yang ingin menikmati kegiatan menaiki kuda.</div>",
+	                "xoff": 0,
+	                "yoff": -30
+	            },
+	            "onclick": "function(){ this.viewer.action('toggleMessage',this.hsinfo); }",
+	            "opacity": "1.00;1.00",
+	            "position": "207.8571,11.2500",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "areakuda",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"areakuda_tiles/areakuda_t_1b_%y_%x.jpg"},"down":{"src":"areakuda_tiles/areakuda_t_1d_%y_%x.jpg"},"front":{"src":"areakuda_tiles/areakuda_t_1f_%y_%x.jpg"},"height":1711,"left":{"src":"areakuda_tiles/areakuda_t_1l_%y_%x.jpg"},"right":{"src":"areakuda_tiles/areakuda_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"areakuda_tiles/areakuda_t_1u_%y_%x.jpg"},"width":1711},{"back":{"src":"areakuda_tiles/areakuda_t_2b_%y_%x.jpg"},"down":{"src":"areakuda_tiles/areakuda_t_2d_%y_%x.jpg"},"front":{"src":"areakuda_tiles/areakuda_t_2f_%y_%x.jpg"},"height":856,"left":{"src":"areakuda_tiles/areakuda_t_2l_%y_%x.jpg"},"right":{"src":"areakuda_tiles/areakuda_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"areakuda_tiles/areakuda_t_2u_%y_%x.jpg"},"width":856},{"back":{"src":"areakuda_tiles/areakuda_t_3b_%y_%x.jpg"},"down":{"src":"areakuda_tiles/areakuda_t_3d_%y_%x.jpg"},"front":{"src":"areakuda_tiles/areakuda_t_3f_%y_%x.jpg"},"height":428,"left":{"src":"areakuda_tiles/areakuda_t_3l_%y_%x.jpg"},"right":{"src":"areakuda_tiles/areakuda_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"areakuda_tiles/areakuda_t_3u_%y_%x.jpg"},"width":428}],"multilevel":true,"preview":{"src":"areakuda_tiles/areakuda_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 90,
+	        "pan": 179.99999999999997,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

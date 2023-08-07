@@ -1,0 +1,123 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "kandangdomba_controls.json"
+        },
+        {
+            "src": "panoStudioViewerGallery.json"
+        }
+    ],
+"node": {
+	"audio": {
+	        "autoplay": true,
+	        "id": "lAudio",
+	        "loop": true,
+	        "src": "Harvest Moon- Back to Nature Title OST.mp3"
+	    },
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 359.99999999999994,
+	        "maxtilt": 89.99999999999999,
+	        "minpan": 0,
+	        "mintilt": -89.99999999999999
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "kandangsapi.html\n",
+	            "opacity": "1.00;1.00",
+	            "position": "200.6920,-1.4062",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "kandang sapi"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_info_blue.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 7.846508771181106,
+	            "href": "javascript:",
+	            "hsinfo": {
+	                "align": "center",
+	                "captureMouse": true,
+	                "checkHover": true,
+	                "id": "hsinfo1",
+	                "maxwidth": "66%",
+	                "onclick": "function(){ this.viewer.action('hideMessage'); } ",
+	                "style": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66); transform-origin : 0% 0% 0px; transform: translate(0px, 0px) translateZ(10000px);",
+	                "text": "<div style='padding: 16px;' class='panoStudioViewerText1'><style>div.panoStudioViewerText1 a, a:visited {color: #FDB815;} div.panoStudioViewerText1 a:hover, a:active {color: #EFF517;}</style>kandang burung</div>",
+	                "xoff": 0,
+	                "yoff": -30
+	            },
+	            "onclick": "function(){ this.viewer.action('toggleMessage',this.hsinfo); }",
+	            "opacity": "1.00;1.00",
+	            "position": "168.9509,-4.8214",
+	            "rotate": 0,
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_info_blue.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 9.42439869046211,
+	            "href": "javascript:",
+	            "hsinfo": {
+	                "align": "center",
+	                "captureMouse": true,
+	                "checkHover": true,
+	                "id": "hsinfo2",
+	                "maxwidth": "66%",
+	                "onclick": "function(){ this.viewer.action('hideMessage'); } ",
+	                "style": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66); transform-origin : 0% 0% 0px; transform: translate(0px, 0px) translateZ(10000px);",
+	                "text": "<div style='padding: 16px;' class='panoStudioViewerText1'><style>div.panoStudioViewerText1 a, a:visited {color: #FDB815;} div.panoStudioViewerText1 a:hover, a:active {color: #EFF517;}</style>Di tempat ini, terdapat kandang domba dan kambing yang tersedia untuk dijual selama perayaan Idul Adha. Kandang ini menyediakan domba dan kambing yang sehat dan berkualitas tinggi yang dapat digunakan sebagai hewan kurban. Wisatawan dapat memilih dari berbagai ukuran dan jenis hewan yang sesuai dengan keinginan mereka. Tim kami yang berpengalaman akan memberikan pelayanan profesional dan membantu wisatawan dalam memilih hewan yang tepat. Dengan membeli di sini, wisatawan dapat memastikan bahwa hewan kurban mereka memenuhi standar kualitas dan sesuai dengan tradisi perayaan Idul Adha.</div>",
+	                "xoff": 0,
+	                "yoff": -30
+	            },
+	            "onclick": "function(){ this.viewer.action('toggleMessage',this.hsinfo); }",
+	            "opacity": "1.00;1.00",
+	            "position": "55.8482,15.8705",
+	            "rotate": 0,
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "kandangdomba",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"kandangdomba_tiles/kandangdomba_t_1b_%y_%x.jpg"},"down":{"src":"kandangdomba_tiles/kandangdomba_t_1d_%y_%x.jpg"},"front":{"src":"kandangdomba_tiles/kandangdomba_t_1f_%y_%x.jpg"},"height":1711,"left":{"src":"kandangdomba_tiles/kandangdomba_t_1l_%y_%x.jpg"},"right":{"src":"kandangdomba_tiles/kandangdomba_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"kandangdomba_tiles/kandangdomba_t_1u_%y_%x.jpg"},"width":1711},{"back":{"src":"kandangdomba_tiles/kandangdomba_t_2b_%y_%x.jpg"},"down":{"src":"kandangdomba_tiles/kandangdomba_t_2d_%y_%x.jpg"},"front":{"src":"kandangdomba_tiles/kandangdomba_t_2f_%y_%x.jpg"},"height":856,"left":{"src":"kandangdomba_tiles/kandangdomba_t_2l_%y_%x.jpg"},"right":{"src":"kandangdomba_tiles/kandangdomba_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"kandangdomba_tiles/kandangdomba_t_2u_%y_%x.jpg"},"width":856},{"back":{"src":"kandangdomba_tiles/kandangdomba_t_3b_%y_%x.jpg"},"down":{"src":"kandangdomba_tiles/kandangdomba_t_3d_%y_%x.jpg"},"front":{"src":"kandangdomba_tiles/kandangdomba_t_3f_%y_%x.jpg"},"height":428,"left":{"src":"kandangdomba_tiles/kandangdomba_t_3l_%y_%x.jpg"},"right":{"src":"kandangdomba_tiles/kandangdomba_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"kandangdomba_tiles/kandangdomba_t_3u_%y_%x.jpg"},"width":428}],"multilevel":true,"preview":{"src":"kandangdomba_tiles/kandangdomba_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 90,
+	        "pan": 37.23,
+	        "tilt": 21.02
+	    }
+},
+"version": "4.1"
+}
+}

@@ -1,0 +1,121 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "vilabawah_controls.json"
+        },
+        {
+            "src": "panoStudioViewerGallery.json"
+        }
+    ],
+"node": {
+	"audio": {
+	        "autoplay": true,
+	        "id": "lAudio",
+	        "loop": true,
+	        "src": "Harvest Moon- Back to Nature Title OST.mp3"
+	    },
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 359.99999999999994,
+	        "maxtilt": 89.99999999999999,
+	        "minpan": 0,
+	        "mintilt": -89.99999999999999
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_info_blue.png",
+	            "bitmapscale": "1.0;1.1",
+	            "bitmaptype": "floating",
+	            "href": "javascript:",
+	            "hsinfo": {
+	                "align": "center",
+	                "captureMouse": true,
+	                "checkHover": true,
+	                "id": "hsinfo0",
+	                "maxwidth": "66%",
+	                "onclick": "function(){ this.viewer.action('hideMessage'); } ",
+	                "style": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66); transform-origin : 0% 0% 0px; transform: translate(0px, 0px) translateZ(10000px);",
+	                "text": "<div style='padding: 16px;' class='panoStudioViewerText1'><style>div.panoStudioViewerText1 a, a:visited {color: #FDB815;} div.panoStudioViewerText1 a:hover, a:active {color: #EFF517;}</style>Villa bawa adalah jenis akomodasi yang ideal bagi para wisatawan yang ingin membawa keluarga atau teman-teman mereka. Villa ini menyediakan fasilitas yang lengkap, seperti kamar tidur yang nyaman, ruang tamu yang luas, dapur, kamar mandi pribadi, dan area bersantai di luar ruangan. Dengan villa bawa, wisatawan dapat menikmati privasi dan kenyamanan seperti berada di rumah sendiri sambil menikmati suasana dan pemandangan yang indah di sekitar tempat ini.</div>",
+	                "xoff": 0,
+	                "yoff": -30
+	            },
+	            "onclick": "function(){ this.viewer.action('toggleMessage',this.hsinfo); }",
+	            "opacity": "1.00;1.00",
+	            "position": "199.8214,-14.7321",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "halamanvilabawah.html\n",
+	            "opacity": "1.00;1.00",
+	            "position": "100.4464,13.1250",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "halaman villa"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "jlnutama.html\n",
+	            "opacity": "1.00;1.00",
+	            "position": "13.9286,17.4107",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "jalan utama"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "vilabawah",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"vilabawah_tiles/vilabawah_t_1b_%y_%x.jpg"},"down":{"src":"vilabawah_tiles/vilabawah_t_1d_%y_%x.jpg"},"front":{"src":"vilabawah_tiles/vilabawah_t_1f_%y_%x.jpg"},"height":1711,"left":{"src":"vilabawah_tiles/vilabawah_t_1l_%y_%x.jpg"},"right":{"src":"vilabawah_tiles/vilabawah_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"vilabawah_tiles/vilabawah_t_1u_%y_%x.jpg"},"width":1711},{"back":{"src":"vilabawah_tiles/vilabawah_t_2b_%y_%x.jpg"},"down":{"src":"vilabawah_tiles/vilabawah_t_2d_%y_%x.jpg"},"front":{"src":"vilabawah_tiles/vilabawah_t_2f_%y_%x.jpg"},"height":856,"left":{"src":"vilabawah_tiles/vilabawah_t_2l_%y_%x.jpg"},"right":{"src":"vilabawah_tiles/vilabawah_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"vilabawah_tiles/vilabawah_t_2u_%y_%x.jpg"},"width":856},{"back":{"src":"vilabawah_tiles/vilabawah_t_3b_%y_%x.jpg"},"down":{"src":"vilabawah_tiles/vilabawah_t_3d_%y_%x.jpg"},"front":{"src":"vilabawah_tiles/vilabawah_t_3f_%y_%x.jpg"},"height":428,"left":{"src":"vilabawah_tiles/vilabawah_t_3l_%y_%x.jpg"},"right":{"src":"vilabawah_tiles/vilabawah_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"vilabawah_tiles/vilabawah_t_3u_%y_%x.jpg"},"width":428}],"multilevel":true,"preview":{"src":"vilabawah_tiles/vilabawah_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 90,
+	        "pan": 179.99999999999997,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

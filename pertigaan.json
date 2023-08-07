@@ -1,0 +1,123 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "pertigaan_controls.json"
+        },
+        {
+            "src": "panoStudioViewerGallery.json"
+        }
+    ],
+"node": {
+	"audio": {
+	        "autoplay": true,
+	        "id": "lAudio",
+	        "loop": true,
+	        "src": "Harvest Moon- Back to Nature Title OST.mp3"
+	    },
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 359.99999999999994,
+	        "maxtilt": 89.99999999999999,
+	        "minpan": 0,
+	        "mintilt": -89.99999999999999
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "kandang kambing.html\n",
+	            "opacity": "1.00;1.00",
+	            "position": "110.1562,25.7143",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "kandang kambing"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 84,
+	                "width": 204
+	            },
+	            "bitmap": "pap_perspectiveArrow2x.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 36.000000536441796,
+	            "href": "kelinci.html",
+	            "opacity": "1.00;1.00",
+	            "position": "311.3170,23.5045",
+	            "rotate": 343.5920104980469,
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "kandang kuda"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 84,
+	                "width": 204
+	            },
+	            "bitmap": "pap_perspectiveArrow2x.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 16.33781790733337,
+	            "href": "kandangungas.html",
+	            "opacity": "1.00;1.00",
+	            "position": "233.3036,24.6429",
+	            "rotate": 14.036243438720703,
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "kandang ayam dan kalkun"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "pertigaan",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"pertigaan_tiles/pertigaan_t_1b_%y_%x.jpg"},"down":{"src":"pertigaan_tiles/pertigaan_t_1d_%y_%x.jpg"},"front":{"src":"pertigaan_tiles/pertigaan_t_1f_%y_%x.jpg"},"height":1711,"left":{"src":"pertigaan_tiles/pertigaan_t_1l_%y_%x.jpg"},"right":{"src":"pertigaan_tiles/pertigaan_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"pertigaan_tiles/pertigaan_t_1u_%y_%x.jpg"},"width":1711},{"back":{"src":"pertigaan_tiles/pertigaan_t_2b_%y_%x.jpg"},"down":{"src":"pertigaan_tiles/pertigaan_t_2d_%y_%x.jpg"},"front":{"src":"pertigaan_tiles/pertigaan_t_2f_%y_%x.jpg"},"height":856,"left":{"src":"pertigaan_tiles/pertigaan_t_2l_%y_%x.jpg"},"right":{"src":"pertigaan_tiles/pertigaan_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"pertigaan_tiles/pertigaan_t_2u_%y_%x.jpg"},"width":856},{"back":{"src":"pertigaan_tiles/pertigaan_t_3b_%y_%x.jpg"},"down":{"src":"pertigaan_tiles/pertigaan_t_3d_%y_%x.jpg"},"front":{"src":"pertigaan_tiles/pertigaan_t_3f_%y_%x.jpg"},"height":428,"left":{"src":"pertigaan_tiles/pertigaan_t_3l_%y_%x.jpg"},"right":{"src":"pertigaan_tiles/pertigaan_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"pertigaan_tiles/pertigaan_t_3u_%y_%x.jpg"},"width":428}],"multilevel":true,"preview":{"src":"pertigaan_tiles/pertigaan_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 90,
+	        "pan": 179.99999999999997,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

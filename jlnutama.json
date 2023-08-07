@@ -1,0 +1,115 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "jlnutama_controls.json"
+        },
+        {
+            "src": "panoStudioViewerGallery.json"
+        }
+    ],
+"node": {
+	"audio": {
+	        "autoplay": true,
+	        "id": "lAudio",
+	        "loop": true,
+	        "src": "0807.mp3"
+	    },
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 359.99999999999994,
+	        "maxtilt": 89.99999999999999,
+	        "minpan": 0,
+	        "mintilt": -89.99999999999999
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "halandaepanvilaternak.html ",
+	            "opacity": "1.00;1.00",
+	            "position": "168.7500,22.5000",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "halaman menujuh perternakan dan perkebunan"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_spot_white.png",
+	            "bitmapscale": "1.0;1.1",
+	            "bitmaptype": "floating",
+	            "href": "vilabawah.html",
+	            "opacity": "1.00;1.00",
+	            "position": "71.2500,12.5893",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "villa bawa"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 34,
+	                "width": 72
+	            },
+	            "bitmap": "pap_runningArrowLeft.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "jlnutama2.html",
+	            "opacity": "1.00;1.00",
+	            "position": "376.4062,0.0000",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "pintu masuk"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "jlnutama",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"jlnutama_tiles/jlnutama_t_1b_%y_%x.jpg"},"down":{"src":"jlnutama_tiles/jlnutama_t_1d_%y_%x.jpg"},"front":{"src":"jlnutama_tiles/jlnutama_t_1f_%y_%x.jpg"},"height":1711,"left":{"src":"jlnutama_tiles/jlnutama_t_1l_%y_%x.jpg"},"right":{"src":"jlnutama_tiles/jlnutama_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"jlnutama_tiles/jlnutama_t_1u_%y_%x.jpg"},"width":1711},{"back":{"src":"jlnutama_tiles/jlnutama_t_2b_%y_%x.jpg"},"down":{"src":"jlnutama_tiles/jlnutama_t_2d_%y_%x.jpg"},"front":{"src":"jlnutama_tiles/jlnutama_t_2f_%y_%x.jpg"},"height":856,"left":{"src":"jlnutama_tiles/jlnutama_t_2l_%y_%x.jpg"},"right":{"src":"jlnutama_tiles/jlnutama_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"jlnutama_tiles/jlnutama_t_2u_%y_%x.jpg"},"width":856},{"back":{"src":"jlnutama_tiles/jlnutama_t_3b_%y_%x.jpg"},"down":{"src":"jlnutama_tiles/jlnutama_t_3d_%y_%x.jpg"},"front":{"src":"jlnutama_tiles/jlnutama_t_3f_%y_%x.jpg"},"height":428,"left":{"src":"jlnutama_tiles/jlnutama_t_3l_%y_%x.jpg"},"right":{"src":"jlnutama_tiles/jlnutama_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"jlnutama_tiles/jlnutama_t_3u_%y_%x.jpg"},"width":428}],"multilevel":true,"preview":{"src":"jlnutama_tiles/jlnutama_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 90,
+	        "pan": 179.99999999999997,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

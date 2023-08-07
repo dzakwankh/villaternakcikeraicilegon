@@ -1,0 +1,145 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "kelinci_controls.json"
+        },
+        {
+            "src": "panoStudioViewerGallery.json"
+        }
+    ],
+"node": {
+	"audio": {
+	        "autoplay": true,
+	        "id": "lAudio",
+	        "loop": true,
+	        "src": "Harvest Moon- Back to Nature Title OST.mp3"
+	    },
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 359.99999999999994,
+	        "maxtilt": 89.99999999999999,
+	        "minpan": 0,
+	        "mintilt": -89.99999999999999
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "halandaepanvilaternak.html",
+	            "opacity": "1.00;1.00",
+	            "position": "242.6786,3.7500",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "halaman menujuh perternakan dan perkebunan\n"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "pertigaan.html\n",
+	            "opacity": "1.00;1.00",
+	            "position": "109.2857,30.0000",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "menujuh bawa"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_info_blue.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 8.474792763590811,
+	            "href": "javascript:",
+	            "hsinfo": {
+	                "align": "center",
+	                "captureMouse": true,
+	                "checkHover": true,
+	                "id": "hsinfo2",
+	                "maxwidth": "66%",
+	                "onclick": "function(){ this.viewer.action('hideMessage'); } ",
+	                "style": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66); transform-origin : 0% 0% 0px; transform: translate(0px, 0px) translateZ(10000px);",
+	                "text": "<div style='padding: 16px;' class='panoStudioViewerText1'><style>div.panoStudioViewerText1 a, a:visited {color: #FDB815;} div.panoStudioViewerText1 a:hover, a:active {color: #EFF517;}</style>kandang kelenci</div>",
+	                "xoff": 0,
+	                "yoff": -30
+	            },
+	            "onclick": "function(){ this.viewer.action('toggleMessage',this.hsinfo); }",
+	            "opacity": "1.00;1.00",
+	            "position": "10.1786,11.3170",
+	            "rotate": 0,
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_info_blue.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 8.273015543818472,
+	            "href": "javascript:",
+	            "hsinfo": {
+	                "align": "center",
+	                "captureMouse": true,
+	                "checkHover": true,
+	                "id": "hsinfo3",
+	                "maxwidth": "66%",
+	                "onclick": "function(){ this.viewer.action('hideMessage'); } ",
+	                "style": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66); transform-origin : 0% 0% 0px; transform: translate(0px, 0px) translateZ(10000px);",
+	                "text": "<div style='padding: 16px;' class='panoStudioViewerText1'><style>div.panoStudioViewerText1 a, a:visited {color: #FDB815;} div.panoStudioViewerText1 a:hover, a:active {color: #EFF517;}</style>kandang kuda</div>",
+	                "xoff": 0,
+	                "yoff": -30
+	            },
+	            "onclick": "function(){ this.viewer.action('toggleMessage',this.hsinfo); }",
+	            "opacity": "1.00;1.00",
+	            "position": "54.1071,-2.5446",
+	            "rotate": 356.75689697265625,
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "kelinci",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"kelinci_tiles/kelinci_t_1b_%y_%x.jpg"},"down":{"src":"kelinci_tiles/kelinci_t_1d_%y_%x.jpg"},"front":{"src":"kelinci_tiles/kelinci_t_1f_%y_%x.jpg"},"height":1711,"left":{"src":"kelinci_tiles/kelinci_t_1l_%y_%x.jpg"},"right":{"src":"kelinci_tiles/kelinci_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"kelinci_tiles/kelinci_t_1u_%y_%x.jpg"},"width":1711},{"back":{"src":"kelinci_tiles/kelinci_t_2b_%y_%x.jpg"},"down":{"src":"kelinci_tiles/kelinci_t_2d_%y_%x.jpg"},"front":{"src":"kelinci_tiles/kelinci_t_2f_%y_%x.jpg"},"height":856,"left":{"src":"kelinci_tiles/kelinci_t_2l_%y_%x.jpg"},"right":{"src":"kelinci_tiles/kelinci_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"kelinci_tiles/kelinci_t_2u_%y_%x.jpg"},"width":856},{"back":{"src":"kelinci_tiles/kelinci_t_3b_%y_%x.jpg"},"down":{"src":"kelinci_tiles/kelinci_t_3d_%y_%x.jpg"},"front":{"src":"kelinci_tiles/kelinci_t_3f_%y_%x.jpg"},"height":428,"left":{"src":"kelinci_tiles/kelinci_t_3l_%y_%x.jpg"},"right":{"src":"kelinci_tiles/kelinci_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"kelinci_tiles/kelinci_t_3u_%y_%x.jpg"},"width":428}],"multilevel":true,"preview":{"src":"kelinci_tiles/kelinci_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 122,
+	        "pan": 76.87,
+	        "tilt": 16.33
+	    }
+},
+"version": "4.1"
+}
+}
